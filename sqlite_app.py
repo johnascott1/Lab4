@@ -85,6 +85,3 @@ def search_all():
     allCOntestants = cur.execute('SELECT * FROM archery_scores').fetchall();
     print(allCOntestants)
 main()
-class ArcherError(Exception):
-#for archery_scores eroors.
-    pass
